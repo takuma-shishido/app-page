@@ -71,7 +71,7 @@ export default function Component() {
               alt="Image"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               height="310"
-              src="/placeholder.png"
+              src="/app-page/placeholder.png"
               width="550"
             />
           </div>
