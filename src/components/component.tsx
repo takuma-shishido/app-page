@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from 'next/image'
 
 export default function Component() {
   return (
@@ -66,11 +67,11 @@ export default function Component() {
                 </li>
               </ul>
             </div>
-            <img
+            <Image
               alt="Image"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               height="310"
-              src={process.env.PUBLIC_URL + "/placeholder.png"}
+              src="/placeholder.png"
               width="550"
             />
           </div>
